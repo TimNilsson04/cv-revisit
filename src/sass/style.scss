@@ -1,0 +1,62 @@
+@use "reset";
+@font-face{
+    font-family: "Doom-text";
+    src: url("/font/Doom.ttf");
+
+}
+
+$base-size: 2rem;
+
+body {
+    max-width: min(120ch, 100vw - 1rem);
+    margin-inline: auto;
+    background: black;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    font-family: "Doom-text";
+    display: flex;
+    gap: $base-size;
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 0;
+    color: black;
+    box-shadow: 6px 8px 6px darkred;
+    background-color: rgb(194, 14, 14);
+    margin-bottom: 2%;
+}
+.nav-container{
+    display: flex;
+    gap: $base-size;
+    list-style: none;
+    margin: 0 auto;
+    padding: 35px 0;
+    font-size: 40px;
+}
+
+h1 {
+
+    font-size: 5rem;
+
+}
+
+.container {
+    max-width: 58rem;
+    width: 100%;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.record_header {
+    display: flex;
+}
+
+
+.box-shadow {
+    box-shadow: 8px 10px 8px rgb(38, 38, 38);
+}
+
